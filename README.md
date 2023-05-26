@@ -31,3 +31,17 @@ Results of our reconstruction network:
 <p align="center"><img src="images/results_metric.png" width="700" /></p>
 
 Here, *All* means the metrics are calculated on the whole image, *lungs* means that metrics are calculated only on pixels corresponding to lungs.
+
+## Team member's contributions
+
+* Andrey Galichin
+- Reviewing literature on the topic
+- Coding main pipeline
+- Github Repo Support
+* Evgeny Gurov
+- Coding pipeline for Segmentation
+- Presentation design
+* Arkadiy Vladimirov
+- Reviewing literature on the topic
+- Performing experiments
+- Presentation design 
