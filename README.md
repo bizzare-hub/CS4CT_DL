@@ -34,14 +34,14 @@ Here, *All* means the metrics are calculated on the whole image, *lungs* means t
 
 ## Team member's contributions
 
-* Andrey Galichin
+* Andrey Galichin:
   - Reviewing literature on the topic
   - Coding main pipeline
   - Github Repo Support
-* Evgeny Gurov
-- Coding pipeline for Segmentation
-- Presentation design
-* Arkadiy Vladimirov
-- Reviewing literature on the topic
-- Performing experiments
-- Presentation design 
+* Evgeny Gurov:
+  - Coding pipeline for Segmentation
+  - Presentation design
+* Arkadiy Vladimirov:
+  - Reviewing literature on the topic
+  - Performing experiments
+  - Presentation design 
