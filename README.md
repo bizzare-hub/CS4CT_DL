@@ -1,5 +1,11 @@
 # Compressed sensing for Computed Tomography using Deep Learning
 
+Team:
+
+Andrey Galichin\
+Evgeny Gurov\
+Arkadiy Vladimirov
+
 ## Prerequisites
 
 This is the `Python` implementation of the final project on Skoltech university MSc Deep Learning 2023 course "Deep Learning-based sinogram reconstruction for compressed sensing in Computed Tomography".
@@ -10,8 +16,18 @@ To sum up, the overall pipeline is presented in the following picture:
 
 <p align="center"><img src="images/architecture.png" width="700" /></p>
 
-Team:
+## Results
 
-Andrey Galichin\
-Evgeny Gurov\
-Arkadiy Vladimirov
+Results of the segmentation network:
+
+<p align="center"><img src="images/segmentation.png" width="700" /></p>
+
+Results of our reconstruction network:
+
+<p align="center"><img src="images/results_img.png" width="700" /></p>
+
+**PSNR** and **SSIM** metrics calculated for test images (for base **FBP** reconstruction and with our model):
+
+<p align="center"><img src="images/results_metric.png" width="700" /></p>
+
+Here, *All* means the metrics are calculated on the whole image, *lungs* means that metrics are calculated only on pixels corresponding to lungs.
